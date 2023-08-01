@@ -27,8 +27,9 @@ boundaryField
 
     outlet
     {
-        type            fixedValue;
-	value		uniform 85;
+        type            inletOutlet;
+        inletValue      uniform 85;
+       	value           uniform 85;
     }
     frontAndBackPlanes
     {
