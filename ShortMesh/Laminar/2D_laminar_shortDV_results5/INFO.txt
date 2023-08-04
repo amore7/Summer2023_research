@@ -1,0 +1,16 @@
+INFO
+
+Keeping same timestep as first run, but printing out less frequently and over a longer timespan
+
+NEW FOR 3:
+Changed initial U to have slight Y velocity
+
+Also tweaked thermo properties, mightve been wrong in last 2 runs
+
+New for 4:
+changed thermo properties to water vapor
+increased printout numbers for more resolution in output videos
+
+new for 5:
+SS achived around 0.1 seconds from 4, so stopping runtime at 0.2 
+incresed printout resolution
