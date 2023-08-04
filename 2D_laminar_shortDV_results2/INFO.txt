@@ -1,0 +1,3 @@
+INFO
+
+Keeping same timestep as first run, but printing out less frequently and over a longer timespan
