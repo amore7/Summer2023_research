@@ -1,0 +1,8 @@
+INFO
+
+Keeping same timestep as first run, but printing out less frequently and over a longer timespan
+
+NEW FOR 3:
+Changed initial U to have slight Y velocity
+
+Also tweaked thermo properties, mightve been wrong in last 2 runs
