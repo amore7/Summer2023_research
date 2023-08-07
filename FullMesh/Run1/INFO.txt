@@ -1,0 +1,8 @@
+INFO
+
+First attempt at turbulent with a coarse mesh (element size of 0.03 m), again need to look at epsilon and
+k files to make sure they have the correct values, first run is just a test with numbers from 
+another tutorial 
+
+For this run added more to the Converging section of the mesh to see if results change, 
+first attempt will be for 0.8 seconds and sparse print frequency to look for convergence 
