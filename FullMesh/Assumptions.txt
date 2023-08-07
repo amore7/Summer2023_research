@@ -1,0 +1,13 @@
+Assumptions:
+Pressure driven converging diverging nozzle
+Flow is gas made up of 99% H2O and 1% H2
+Source of flow is at the triple point of water
+compressible and viscous
+Dthroat = 0.46m
+Dexit = 1m
+Reservoir conditions:
+○ T0 = 273.16 K
+○ P0 = 612 Pa
+
+
+hand calc for time for pressure to equalize 
