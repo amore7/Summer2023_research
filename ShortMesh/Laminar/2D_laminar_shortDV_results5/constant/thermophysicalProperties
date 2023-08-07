@@ -29,7 +29,7 @@ mixture
 {
     specie
     {
-        molWeight   18.01528; // Molecular weight of H2O (kg/mol)
+        molWeight   18.01528; // Molecular weight of H2O (g/mol)
     }
     thermodynamics
     {
