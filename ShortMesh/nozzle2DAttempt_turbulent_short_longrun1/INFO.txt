@@ -1,0 +1,3 @@
+INFO
+
+First attempt at turbulent, need to look into how to format new files K and epsilon
