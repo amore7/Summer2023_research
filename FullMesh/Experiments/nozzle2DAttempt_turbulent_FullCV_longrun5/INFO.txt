@@ -1,0 +1,8 @@
+INFO
+
+First attempt at turbulent with a fine mesh (element size of 0.008 m), again need to look at epsilon and
+k files to make sure they have the correct values, first run is just a test with numbers from 
+another tutorial  
+
+New for 4:
+Added new boundary split for pre and post throat, also increased element size to 0.02 m.
