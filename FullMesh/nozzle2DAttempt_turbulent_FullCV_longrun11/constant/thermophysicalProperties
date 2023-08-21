@@ -1,0 +1,67 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2212                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      thermophysicalProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+thermoType
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+
+mixture
+{
+    specie
+    {
+        nMoles       0.99;
+	molWeight   18.01528; // Molecular weight of H2O (g/mol)
+    }
+    thermodynamics
+    {
+        Cp          4210;     // Specific heat capacity of H2O (J/kg-K)
+        Hf          -241830;  // Standard enthalpy of formation of H2O (J/mol)
+    }
+    transport
+    {
+        mu          0.0018007; // Dynamic viscosity of H2O (kg/(m-s))
+        Pr          13.2;      // Prandtl number of H2O at 273K
+    }
+}
+
+mixture
+{
+    specie
+    {
+        nMoles       0.01;
+	molWeight   2.016; // Molecular weight of H2 (g/mol)
+    }
+    thermodynamics
+    {
+        Cp          14307;     // Specific heat capacity of H2 (J/kg-K)
+        Hf          0;  // Standard enthalpy of formation of H2 (J/mol)
+    }
+    transport
+    {
+        mu          0.00842; // Dynamic viscosity of H2 (kg/(m-s))
+        Pr          0.69;      // Prandtl number of H2 at 273K
+    }
+}
+
+// ************************************************************************* //

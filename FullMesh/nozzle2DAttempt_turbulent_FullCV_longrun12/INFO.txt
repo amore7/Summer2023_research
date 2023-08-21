@@ -1,0 +1,26 @@
+INFO
+
+First attempt at turbulent with a fine mesh (element size of 0.008 m), again need to look at epsilon and
+k files to make sure they have the correct values, first run is just a test with numbers from 
+another tutorial  
+
+New for 4:
+Added new boundary split for pre and post throat, also increased element size to 0.02 m.
+
+new for 6: Realized i never changed thermoproperties, attempting again with updated file
+
+new for 7:
+new try with outlet pressure set to 100 pa
+
+
+8 and 9: Looking at initial times steps with alternating BC to see if they are being implemented
+correctly and to see what is happening at initial steps
+
+10; 
+Added boundary cells to go with boundary walls, set those as same boundary conditions and run sim
+(not working)
+
+new for 11:
+Acting as 7.1, looking to add H2 to the last working sim with the split wall vapor conditions
+
+new for 12: Re running 11 with a much cleaner mesh to look for differences 
