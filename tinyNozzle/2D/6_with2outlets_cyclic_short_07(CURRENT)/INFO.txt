@@ -1,0 +1,22 @@
+INFO
+
+7: Finally fixed the BC Vacuum
+
+Argon Mach Calc:
+(mag(U))/(sqrt((1.67*8.314*T)/(0.03994)))
+
+Outlet(s): 1e-07 Pa 
+inlet: 1.034e6 Pa = 150 psi, 400 K
+Laminar, no turblance model used
+Re of about 15,000 at the throat
+Volume is initilized to have the same pressure as the inlet and no velocity, all flow is driven by vacuum
+
+Results from Short case:
+Exit velocity: about 625 m/s at the highest
+Exit Mach: about 7 at the highest
+
+Geometry: 
+Rt = 0.25 mm
+Re = 2.25 mm
+Cone angle = 10 degrees
+L throat to exit = 10 mm
