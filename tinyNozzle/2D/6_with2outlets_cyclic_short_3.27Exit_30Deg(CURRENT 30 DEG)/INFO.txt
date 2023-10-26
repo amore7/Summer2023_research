@@ -1,0 +1,6 @@
+INFO
+
+3: Full params turbulent
+
+4: full params laminar 
+
